@@ -1,0 +1,11 @@
+.failure-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  width: 200px;
+}
+.tropy-image {
+  width: 90px;
+  height: 90px;
+}

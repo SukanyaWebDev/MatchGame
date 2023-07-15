@@ -1,0 +1,12 @@
+.tabs-container {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.list-tabs {
+  /* border-style: solid; */
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
