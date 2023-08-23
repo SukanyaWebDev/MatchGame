@@ -84,4 +84,21 @@ span {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 60%;
+  margin-left: 400px;
+  padding: 30px;
+  background-size: cover;
+  height: 100%;
+}
+.tropy-image {
+  height: 100px;
+  margin-top: 350px;
+}
+
+.playAgain {
+  background-color: #fec653;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
 }

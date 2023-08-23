@@ -274,7 +274,7 @@ class MatchGame extends Component {
       } else if (counter === 0) {
         this.setState({isGameRunning: false})
       }
-    }, 1000)
+    }, 100)
   }
 
   setInitialImages = () => {
@@ -393,9 +393,13 @@ class MatchGame extends Component {
                 alt="trophy"
                 className="tropy-image"
               />
-              <p>YOUR SCORE</p>
-              <p>{score}</p>
-              <button type="button" onClick={this.startAgain}>
+              <p style={{fontWeight: 'bold', color: 'white'}}>YOUR SCORE</p>
+              <p style={{fontWeight: 'bold', color: 'gold'}}>{score}</p>
+              <button
+                type="button"
+                onClick={this.startAgain}
+                className="playAgain"
+              >
                 PLAY AGAIN
               </button>
             </div>
