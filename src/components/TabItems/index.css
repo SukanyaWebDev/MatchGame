@@ -1,0 +1,19 @@
+.tabs-container {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  border: none;
+  margin-left: 10px;
+}
+.list-tabs {
+  /* border-style: solid; */
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  margin: 5px;
+}
+.classOne {
+  border-bottom: 7px solid red;
+}
